@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PRODIGY_AD_04</string>
+    <string name="tic_tac_toe">Tic Tac Toe</string>
+    <string name="vs_ai_mode">Vs AI Mode</string>
+    <string name="competitive_mode">Competitive Mode</string>
+    <string name="standard_mode">Standard Mode</string>
+    <string name="sets">Sets:</string>
+    <string name="tic_tac_toe1">Tic Tac Toe</string>
+    <string name="vs_ai_mode1">Vs AI Mode</string>
+    <string name="competitive_mode1">Competitive Mode</string>
+    <string name="sets1">Sets:</string>
+</resources>

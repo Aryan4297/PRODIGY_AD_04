@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/button_pressed"/>
+            <corners android:radius="16dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient
+                android:startColor="@color/button_default"
+                android:endColor="@color/secondary_cyan"
+                android:angle="135"/>
+            <corners android:radius="16dp"/>
+            <stroke android:width="3dp" android:color="@color/grid_line"/>
+        </shape>
+    </item>
+</selector>

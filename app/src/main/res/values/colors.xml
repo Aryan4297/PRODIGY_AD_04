@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_sky">#87CEEB</color> <!-- Sky Blue -->
+    <color name="secondary_cyan">#00BCD4</color> <!-- Cyan -->
+    <color name="grid_line">#00BCD4</color>
+    <color name="button_x">#F44336</color> <!-- Red for X -->
+    <color name="button_o">#00BCD4</color> <!-- Cyan for O -->
+    <color name="button_default">#FFFFFF</color> <!-- White for buttons -->
+    <color name="button_pressed">#B2EBF2</color> <!-- Light Cyan on press -->
+    <color name="button_gradient_end">#00BCD4</color>
+    <color name="text_bright">#222222</color>
+    <color name="black">#000</color>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_sky"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvGameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tic_tac_toe"
+        android:textColor="@color/secondary_cyan"
+        android:textSize="28sp"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginBottom="24dp"
+        tools:ignore="HardcodedText" />
+
+    <GridLayout
+        android:id="@+id/board"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:layout_marginBottom="24dp">
+
+        <Button
+            android:id="@+id/btn00"
+            style="@style/VibrantGridButton" />
+        <Button
+            android:id="@+id/btn01"
+            style="@style/VibrantGridButton" />
+        <Button
+            android:id="@+id/btn02"
+            style="@style/VibrantGridButton" />
+        <Button
+            android:id="@+id/btn10"
+            style="@style/VibrantGridButton" />
+        <Button
+            android:id="@+id/btn11"
+            style="@style/VibrantGridButton" />
+        <Button
+            android:id="@+id/btn12"
+            style="@style/VibrantGridButton" />
+        <Button
+            android:id="@+id/btn20"
+            style="@style/VibrantGridButton" />
+        <Button
+            android:id="@+id/btn21"
+            style="@style/VibrantGridButton" />
+        <Button
+            android:id="@+id/btn22"
+            style="@style/VibrantGridButton" />
+    </GridLayout>
+</LinearLayout>

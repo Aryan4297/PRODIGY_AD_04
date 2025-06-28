@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/button_default">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tic_tac_toe1"
+            android:textColor="@color/black"
+            android:textSize="36sp"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginBottom="48dp"/>
+
+        <!-- Standard Mode -->
+        <Button
+            android:id="@+id/btnStandard"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            style="@style/VibrantMenuButton"
+            android:text="@string/standard_mode" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sets"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_marginTop="8dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerStandardSets"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:entries="@array/set_options"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Competitive Mode -->
+        <Button
+            android:id="@+id/btnCompetitive"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            style="@style/VibrantMenuButton"
+            android:text="@string/competitive_mode1"
+            android:layout_marginTop="16dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sets1"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_marginTop="8dp"/>
+        <Spinner
+            android:id="@+id/spinnerCompetitiveSets"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:entries="@array/set_options"
+            android:layout_marginBottom="25dp"/>
+
+        <!-- Vs AI Mode -->
+        <Button
+            android:id="@+id/btnVsAI"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            style="@style/VibrantMenuButton"
+            android:text="@string/vs_ai_mode1"
+            android:layout_marginTop="16dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sets1"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_marginTop="8dp"/>
+        <Spinner
+            android:id="@+id/spinnerVsAISets"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+
+            android:entries="@array/set_options"
+            android:layout_marginBottom="16dp"/>
+    </LinearLayout>
+</ScrollView>

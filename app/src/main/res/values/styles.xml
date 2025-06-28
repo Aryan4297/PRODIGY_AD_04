@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="VibrantMenuButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/vibrant_menu_button_bg</item>
+        <item name="android:textColor">@color/secondary_cyan</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingLeft">40dp</item>
+        <item name="android:paddingRight">40dp</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+    <style name="VibrantGridButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:background">@drawable/vibrant_grid_button_bg</item>
+        <item name="android:textColor">@color/text_bright</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:elevation">6dp</item>
+    </style>
+</resources>
